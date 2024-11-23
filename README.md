@@ -1,2 +1,2 @@
-# protein_contact_pred
-A small research project on enhancing protein contact prediction methods
+# Protein Contact Prediction
+A small research project on enhancing protein residue-residue contact prediction methods using ESM2.
