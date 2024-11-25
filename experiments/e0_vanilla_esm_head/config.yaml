@@ -1,0 +1,13 @@
+types: 
+  - load_data
+  - esm_contact_prediction
+
+load_data:
+  path: 
+
+esm_contact_prediction:
+  model_name: "esm1b_t33_650M_UR50S"
+  output_dir: "data/esm_contacts"
+
+logging:
+  output_dir: "logs/vanilla_esm_head/"
