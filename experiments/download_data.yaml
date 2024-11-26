@@ -1,0 +1,14 @@
+types: 
+  - load_pdb
+  - download_uniref50
+
+load_pdb:
+  pdb_ids: ["1A2B", "3C4D"]  # Example PDB IDs to download
+  output_dir: "data/raw"
+
+download_uniref50:
+  url: "ftp://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref50/uniref50.fasta.gz"
+  output_dir: "data/uniref50"
+
+logging:
+  output_dir: "logs/"
