@@ -6,7 +6,7 @@ load_data:
   path: 
 
 esm_contact_prediction:
-  model_name: "esm1b_t33_650M_UR50S"
+  model_name: "esm2_t6_8M_UR50D"
   output_dir: "data/esm_contacts"
 
 logging:
