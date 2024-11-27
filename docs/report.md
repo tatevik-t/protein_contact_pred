@@ -26,7 +26,7 @@ The command for preprocessing was
 
 ## Model
 
-As a model was used ESM2 (esm2_t6_8M_UR50D) model and it's contact prediction head [1].
+As a model was used ESM2 (esm2_t6_8M_UR50D) model and it's contact prediction head.
 
 ## Experiments
 
@@ -37,6 +37,6 @@ The main idea of an experiment lies in the fact that attention layers of ESM2 mo
 
 ## Literature
 
-*Lin, Z., Akin, H., Rao, R., Hie, B., Zhu, Z., Lu, W., Smetanin, N., Verkuil, R., Kabeli, O., Shmueli, Y., dos Santos Costa, A., Fazel-Zarandi, M., Sercu, T., Candido, S., & Rives, A. (2023). Evolutionary-scale prediction of atomic-level protein structure with a language model. Science, 379(6637), 1123-1130. https://doi.org/10.1126/science.ade2574*
+*Lin, Z., Akin, H., Rao, R., Hie, B., Zhu, Z., Lu, W., ... & Rives, A. (2023). Evolutionary-scale prediction of atomic-level protein structure with a language model. Science, 379(6637), 1123-1130.*
 
-*Lin, Z., Akin, H., Rao, R., Hie, B., Zhu, Z., Lu, W., Smetanin, N., Verkuil, R., Kabeli, O., Shmueli, Y., dos Santos Costa, A., Fazel-Zarandi, M., Sercu, T., Candido, S., & Rives, A. (2024). Language models of protein sequences at the scale of evolution enable accurate structure prediction. Nature Reviews Molecular Cell Biology, 24(1), 1-15. https://doi.org/10.1038/s41580-024-00477-7*
+*Lin, Z., Akin, H., Rao, R., Hie, B., Zhu, Z., Lu, W., ... & Rives, A. (2022). Language models of protein sequences at the scale of evolution enable accurate structure prediction. BioRxiv, 2022, 500902.*
