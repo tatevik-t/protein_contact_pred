@@ -35,7 +35,12 @@ rsync -rlpt -v -z --delete --port=33444 rsync.rcsb.org::ftp_data/structures/divi
 3. Process the data:
 
 ```bash
-python [preprocess_pdb.py](preprocess_pdb.py) data/raw data/processed --log_file process.log
+python preprocess_pdb.py data/raw data/processed --log_file process.log
+```
+
+4. Create csv (default 300 proteins)
+```bash
+python create_df.py
 ```
 
 ### Experiments
