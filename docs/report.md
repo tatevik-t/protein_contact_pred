@@ -32,6 +32,16 @@ As a model was used ESM2 (esm2_t6_8M_UR50D) model and it's contact prediction he
 
 The main idea of an experiment lies in the fact that attention layers of ESM2 model contain the structural information.
 
+First experiment is just using the ESM2 head to predict the contact maps.
+
+In the second experiment, the attention weights from all layers are ranked based on the revelance to the real contact map and the metrics are measured from the top-k attention means.
+
+In the third experiment, the ESM2 is supplied with the layer upon the contact head and fine-tuned.
+
+In the fourth experiment, the top-k attention maps (got in the second experiment) are supplied with a layer and the layer was trained.
+
+**NOTE**: The data processing and understanding took long time, so the experiments were not held in a proper way, so only the visualization of attention matrices can be presented: [visualization.ipynb](../notebooks/visualization.ipynb).
+
 ## Results
 
 
